@@ -19,3 +19,10 @@ def binary_search(arr, target):
             high = mid-1
     return -1
 
+
+# 2026-06-04 11:30:48.934550
+def factorial(n):
+    if n == 0:
+        return 1
+    return n * factorial(n-1)
+
